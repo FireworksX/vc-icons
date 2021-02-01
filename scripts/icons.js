@@ -27,7 +27,6 @@ const promises = icons.map(({ id, size }) => {
     return svgo.optimize(svg).then(({ data }) => {
         return data
     }).then((content) => {
-        console.log(content);
         return symbol({ content, id: `${id}_${size}`, size })
     }).then((result) => {
         const iconDir = path.join(cwd, DIST_FOLDER, size);

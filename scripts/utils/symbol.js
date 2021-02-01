@@ -9,7 +9,7 @@ function symbol({ viewbox, content, id, size }) {
     const code = `
 <template>
     <div class="${ classList }" style="${ style }">
-      <svg viewBox="0 0 ${ size } ${ size }" width="${width}" height="${height}">
+      <svg viewBox="0 0 ${ width } ${ height }" width="${width}" height="${height}">
         ${content}
       </svg>
     </div>

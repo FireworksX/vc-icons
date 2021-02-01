@@ -1,9 +1,9 @@
 {
-  "name": "vc-icons",
-  "version": "1.0.0",
+  "name": "@fireworksx/vc-icons",
+  "version": "1.0.3",
   "files": [
     "src",
-    "dist/*.vue"
+    "dist/**/*.vue"
   ],
   "scripts": {
     "watch": "nodemon scripts/icons",
